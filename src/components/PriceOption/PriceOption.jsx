@@ -24,6 +24,6 @@ const PriceOption = ({ option }) => {
 };
 
 PriceOption.propTypes = {
-    option: PropTypes.objects,
+    option: PropTypes.object,
 }
 export default PriceOption;

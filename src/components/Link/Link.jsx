@@ -11,7 +11,7 @@ const Link = ({route}) => {
 
 
 Link.propTypes ={
-    route: PropTypes.array.isRequired,
+    route: PropTypes.array,
 
 }
 

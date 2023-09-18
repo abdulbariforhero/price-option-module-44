@@ -34,7 +34,7 @@ const Navbar = () => {
             ${open ? 'top-12' : '-top-60'}
             bg-yellow-200 text-black px-6  shadow-xl`}>
             {
-                routes.map(route => <Link key={route.id} route={route} ></Link>)
+                routes.map((route) => <Link key={route.id} route={route} ></Link>)
             } 
             </ul>           
         </nav>
